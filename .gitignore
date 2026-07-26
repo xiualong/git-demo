@@ -1,0 +1,109 @@
+# ===============================
+# 1. 操作系统通用文件 (OS files)
+# ===============================
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ===============================
+# 2. Java 项目专用 (Maven/Gradle)
+# ===============================
+# 编译生成的 class 文件
+*.class
+
+# Maven 构建目录
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Gradle 构建目录
+.gradle/
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# ===============================
+# 3. IDE 开发工具配置 (IntelliJ IDEA / Eclipse / VS Code)
+# ===============================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.settings/
+.classpath
+.project
+*.prefs
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# ===============================
+# 4. 依赖目录 (Dependencies)
+# ===============================
+# Node.js
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# ===============================
+# 5. 日志与临时文件 (Logs & Temp)
+# ===============================
+*.log
+*.tmp
+*.temp
+*.cache
+*.pid
+*.seed
+*.pid.lock
+
+# ===============================
+# 6. 环境变量与敏感信息 (Secrets)
+# ===============================
+# 千万注意：不要把真实密码提交到 Git！
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+secrets.yml
+application-dev.yml
+application-prod.yml
+
+# ===============================
+# 7. 系统/压缩包/其他
+# ===============================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.exe
+*.dmg
+*.pkg
+
+# ===============================
+# 8. 自定义你的本地配置 (可选)
+# ===============================
+# 如果你有一些只有自己电脑才有的测试数据，可以加在下面
+local_settings.py
+test_data/
