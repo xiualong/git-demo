@@ -6,5 +6,8 @@ class testGit
         System.out.println("helloword")
         System.out.println("helloword")
         System.out.println("helloword")
+        System.out.println("helloword")
+        System.out.println("helloword")
+        System.out.println("helloword")
     }
 }
